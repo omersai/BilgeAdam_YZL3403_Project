@@ -15,5 +15,8 @@ class ViewController: UIViewController {
     }
 
 
+    func test() {
+        print("Merhaba dev-omer branchi")
+    }
 }
 
