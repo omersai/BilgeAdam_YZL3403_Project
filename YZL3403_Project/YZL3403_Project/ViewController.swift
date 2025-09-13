@@ -14,8 +14,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+
     func muhdev() {
         print("Test")
+    }
+
+    func devomer() {
+        print("Merhaba dev-omer branchi")
+
     }
 }
 
