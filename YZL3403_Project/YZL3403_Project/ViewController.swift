@@ -18,6 +18,14 @@ class ViewController: UIViewController {
         print("Deneme")
     }
 
+    func muhdev() {
+        print("Test")
+    }
+
+    func devomer() {
+        print("Merhaba dev-omer branchi")
+
+    }
 }
 
 extension ViewController {
