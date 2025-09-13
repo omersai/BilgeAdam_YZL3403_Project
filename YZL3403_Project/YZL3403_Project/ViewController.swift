@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     }
 
 
-    func omer() {
+    func devomer() {
         print("Merhaba dev-omer branchi")
     }
 }
