@@ -15,7 +15,20 @@ class ViewController: UIViewController {
     }
     
     func devEmre(){
-     print("Hello, World!")
+        print("Hello, World!")
+    }
+
+    func devefnan() {
+        print("Deneme")
+    }
+
+    func muhdev() {
+        print("Test")
+    }
+
+    func devomer() {
+        print("Merhaba dev-omer branchi")
+
     }
 }
 
