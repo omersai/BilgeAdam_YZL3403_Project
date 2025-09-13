@@ -15,6 +15,9 @@ class ViewController: UIViewController {
     }
 
 
+    func devomer() {
+        print("Merhaba dev-omer branchi")
+    }
 }
 
 extension ViewController {
