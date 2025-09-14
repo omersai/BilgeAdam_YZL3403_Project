@@ -18,8 +18,11 @@ class ViewController: UIViewController {
         print("Deneme")
     }
 
-    func muhdev() {
+    private func muhdev(usertype:Usersphone) {
+        
         print("Test")
+        
+        
     }
 
     func devomer() {
@@ -30,5 +33,12 @@ class ViewController: UIViewController {
 
 extension ViewController {
     
+}
+enum Usersphone: String {
+    case pro
+    case plus
+    case free
+    case gold
+    case se
 }
 
