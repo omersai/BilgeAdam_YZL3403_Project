@@ -13,9 +13,26 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-func zeren(){
+    
+    func zeren(){
         print("zeren branch")
     }
 
+    func devefnan() {
+        print("Deneme")
+    }
+
+    func muhdev() {
+        print("Test")
+    }
+
+    func devomer() {
+        print("Merhaba dev-omer branchi")
+
+    }
+}
+
+extension ViewController {
+    
 }
 
