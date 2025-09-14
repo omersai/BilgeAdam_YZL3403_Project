@@ -13,13 +13,16 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-    func devefnan() {
+    
+    // Pro, Plus, Free, Gold
+    func devefnan(userType: UserType) {
         print("Deneme")
     }
 
     func muhdev() {
         print("Test")
+        
+        devefnan(userType: .free)
     }
 
     func devomer() {
@@ -32,3 +35,9 @@ extension ViewController {
     
 }
 
+enum UserType: String {
+    case pro
+    case plus
+    case free
+    case gold
+}
